@@ -1,0 +1,22 @@
+.error{
+    display : none;
+}
+.rInput:invalid[focused="true"] {
+    border : 1px solid red;
+}
+.rInput:invalid[focused="true"] ~ span {
+    display:block;
+}
+
+
+.lInput:invalid[focused="true"] {
+    border-bottom : 1px solid red;
+}
+.lInput:invalid[focused="true"] ~ span {
+    display:block;
+}
+
+.lInput:focus {
+    border-bottom : 1px solid blue;
+    outline: none;
+}
